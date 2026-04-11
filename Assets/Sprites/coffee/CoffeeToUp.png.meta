@@ -1,0 +1,542 @@
+fileFormatVersion: 2
+guid: 107ab62f07c342a488135d761d83bef8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4727482432440240130
+    second: CoffeeToUp_0
+  - first:
+      213: -4244160902969852675
+    second: CoffeeToUp_1
+  - first:
+      213: -8781860145816502064
+    second: CoffeeToUp_2
+  - first:
+      213: -2426829439898953121
+    second: CoffeeToUp_3
+  - first:
+      213: -7177375978091400463
+    second: CoffeeToUp_4
+  - first:
+      213: -5636974755818299843
+    second: CoffeeToUp_5
+  - first:
+      213: 5311018580710371333
+    second: CoffeeToUp_6
+  - first:
+      213: -521996602000997882
+    second: CoffeeToUp_7
+  - first:
+      213: 1301781741237570122
+    second: CoffeeToUp_8
+  - first:
+      213: -1710639348385966162
+    second: CoffeeToUp_9
+  - first:
+      213: -45486615671473377
+    second: CoffeeToUp_10
+  - first:
+      213: -3789452386456974035
+    second: CoffeeToUp_11
+  - first:
+      213: -2989126849236287714
+    second: CoffeeToUp_12
+  - first:
+      213: 7226434457361008373
+    second: CoffeeToUp_13
+  - first:
+      213: 544625873351578000
+    second: CoffeeToUp_14
+  - first:
+      213: 8861594507701347503
+    second: CoffeeToUp_15
+  - first:
+      213: -3641772895884085209
+    second: CoffeeToUp_16
+  - first:
+      213: -9093439093765306340
+    second: CoffeeToUp_17
+  - first:
+      213: -8794490091519835609
+    second: CoffeeToUp_18
+  - first:
+      213: -5103335251419708780
+    second: CoffeeToUp_19
+  - first:
+      213: -2604269873914250088
+    second: CoffeeToUp_20
+  - first:
+      213: -8439464790801778701
+    second: CoffeeToUp_21
+  - first:
+      213: 544138573732532771
+    second: CoffeeToUp_22
+  - first:
+      213: -5545961884982078357
+    second: CoffeeToUp_23
+  - first:
+      213: -432777785653884010
+    second: CoffeeToUp_24
+  - first:
+      213: 3117343685094792525
+    second: CoffeeToUp_25
+  - first:
+      213: -4054559131269948745
+    second: CoffeeToUp_26
+  - first:
+      213: 8887276454940779936
+    second: CoffeeToUp_27
+  - first:
+      213: 5749532163672883205
+    second: CoffeeToUp_28
+  - first:
+      213: 1158266230519230584
+    second: CoffeeToUp_29
+  - first:
+      213: 1593985112365308086
+    second: CoffeeToUp_30
+  - first:
+      213: -4159814990687936998
+    second: CoffeeToUp_31
+  - first:
+      213: -2601923023110724742
+    second: CoffeeToUp_32
+  - first:
+      213: -2216969440765871174
+    second: CoffeeToUp_33
+  - first:
+      213: 7028226629104312471
+    second: CoffeeToUp_34
+  - first:
+      213: -2023726428679264303
+    second: CoffeeToUp_35
+  - first:
+      213: 1176233781927433192
+    second: CoffeeToUp_36
+  - first:
+      213: -3203811525238656897
+    second: CoffeeToUp_37
+  - first:
+      213: -9057610729159922694
+    second: CoffeeToUp_38
+  - first:
+      213: 4748510614085181730
+    second: CoffeeToUp_39
+  - first:
+      213: -6455507938610329009
+    second: CoffeeToUp_40
+  - first:
+      213: -3530896385510305013
+    second: CoffeeToUp_41
+  - first:
+      213: 815005875387243766
+    second: CoffeeToUp_42
+  - first:
+      213: 6134699464655628401
+    second: CoffeeToUp_43
+  - first:
+      213: 3338566342957104516
+    second: CoffeeToUp_44
+  - first:
+      213: -235380587550137872
+    second: CoffeeToUp_45
+  - first:
+      213: 833897055795905984
+    second: CoffeeToUp_46
+  - first:
+      213: 956994847201276074
+    second: CoffeeToUp_47
+  - first:
+      213: -861888492276656656
+    second: CoffeeToUp_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CoffeeToUp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208008b99346b9140800000000000000
+      internalID: 4727482432440240130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToUp_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc71e03526b915c0800000000000000
+      internalID: -4244160902969852675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToUp_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d08275c9b0902680800000000000000
+      internalID: -8781860145816502064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToUp_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5adc587b7b225ed0800000000000000
+      internalID: -2426829439898953121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToUp_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2b0764396d46c90800000000000000
+      internalID: -7177375978091400463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToUp_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e1b97535175c1b0800000000000000
+      internalID: -5636974755818299843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToUp_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500bdba924784b940800000000000000
+      internalID: 5311018580710371333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToUp_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60205cb2bde71c8f0800000000000000
+      internalID: -521996602000997882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToUp_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a0e85b89bd01210800000000000000
+      internalID: 1301781741237570122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToUp_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea716a473969248e0800000000000000
+      internalID: -1710639348385966162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToUp_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bfddef9266e5ff0800000000000000
+      internalID: -45486615671473377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToUp_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dc9f3c129296bc0800000000000000
+      internalID: -3789452386456974035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9c4a45c731b34024a812f877ab806fac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      CoffeeToUp_0: 4727482432440240130
+      CoffeeToUp_1: -4244160902969852675
+      CoffeeToUp_10: -45486615671473377
+      CoffeeToUp_11: -3789452386456974035
+      CoffeeToUp_2: -8781860145816502064
+      CoffeeToUp_3: -2426829439898953121
+      CoffeeToUp_4: -7177375978091400463
+      CoffeeToUp_5: -5636974755818299843
+      CoffeeToUp_6: 5311018580710371333
+      CoffeeToUp_7: -521996602000997882
+      CoffeeToUp_8: 1301781741237570122
+      CoffeeToUp_9: -1710639348385966162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

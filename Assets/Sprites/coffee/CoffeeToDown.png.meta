@@ -1,0 +1,542 @@
+fileFormatVersion: 2
+guid: 72d5ec8db2ebd7a478a2e0ff9b2aab57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7447619541751784904
+    second: CoffeeToDown_0
+  - first:
+      213: -8295501652609787693
+    second: CoffeeToDown_1
+  - first:
+      213: 7268589737456764175
+    second: CoffeeToDown_2
+  - first:
+      213: 8069590691066169472
+    second: CoffeeToDown_3
+  - first:
+      213: -8443723346886076404
+    second: CoffeeToDown_4
+  - first:
+      213: 2471941031044550235
+    second: CoffeeToDown_5
+  - first:
+      213: 2960229204806860333
+    second: CoffeeToDown_6
+  - first:
+      213: -7962816201377894566
+    second: CoffeeToDown_7
+  - first:
+      213: -2362112660935007136
+    second: CoffeeToDown_8
+  - first:
+      213: -1152953144905708625
+    second: CoffeeToDown_9
+  - first:
+      213: -9152472873900371236
+    second: CoffeeToDown_10
+  - first:
+      213: -1941032893239806539
+    second: CoffeeToDown_11
+  - first:
+      213: 5018792257506303639
+    second: CoffeeToDown_12
+  - first:
+      213: -4913253752597465862
+    second: CoffeeToDown_13
+  - first:
+      213: -2082933806037423611
+    second: CoffeeToDown_14
+  - first:
+      213: -4901351913182690624
+    second: CoffeeToDown_15
+  - first:
+      213: -6988038215760937446
+    second: CoffeeToDown_16
+  - first:
+      213: -8612411299564166109
+    second: CoffeeToDown_17
+  - first:
+      213: 1031672880035543993
+    second: CoffeeToDown_18
+  - first:
+      213: -8802227708199148327
+    second: CoffeeToDown_19
+  - first:
+      213: 4149830760558571339
+    second: CoffeeToDown_20
+  - first:
+      213: -2871793979155690955
+    second: CoffeeToDown_21
+  - first:
+      213: -9162585739271423697
+    second: CoffeeToDown_22
+  - first:
+      213: -5602039999507448071
+    second: CoffeeToDown_23
+  - first:
+      213: -1085094091350610987
+    second: CoffeeToDown_24
+  - first:
+      213: 3932489443809734375
+    second: CoffeeToDown_25
+  - first:
+      213: -2251097922717687116
+    second: CoffeeToDown_26
+  - first:
+      213: -7153743273999963366
+    second: CoffeeToDown_27
+  - first:
+      213: -2279526281874434905
+    second: CoffeeToDown_28
+  - first:
+      213: 2512856880487206743
+    second: CoffeeToDown_29
+  - first:
+      213: -4691732968058127494
+    second: CoffeeToDown_30
+  - first:
+      213: -6256034999786861996
+    second: CoffeeToDown_31
+  - first:
+      213: -8463768407508796094
+    second: CoffeeToDown_32
+  - first:
+      213: -8138011989170548860
+    second: CoffeeToDown_33
+  - first:
+      213: -7923200410716987509
+    second: CoffeeToDown_34
+  - first:
+      213: 5369214449016800675
+    second: CoffeeToDown_35
+  - first:
+      213: 3492476737489737488
+    second: CoffeeToDown_36
+  - first:
+      213: -7316520494814998463
+    second: CoffeeToDown_37
+  - first:
+      213: 9127849640363630850
+    second: CoffeeToDown_38
+  - first:
+      213: -2245451879400840260
+    second: CoffeeToDown_39
+  - first:
+      213: -8355639156531648092
+    second: CoffeeToDown_40
+  - first:
+      213: -6364245604109633281
+    second: CoffeeToDown_41
+  - first:
+      213: -6313553084154287951
+    second: CoffeeToDown_42
+  - first:
+      213: 6100414095689725901
+    second: CoffeeToDown_43
+  - first:
+      213: -4929013390617764838
+    second: CoffeeToDown_44
+  - first:
+      213: -3222234260349963345
+    second: CoffeeToDown_45
+  - first:
+      213: 1144191761985815566
+    second: CoffeeToDown_46
+  - first:
+      213: 2504534575695611605
+    second: CoffeeToDown_47
+  - first:
+      213: 1907289005180055195
+    second: CoffeeToDown_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CoffeeToDown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c56f5893824b5760800000000000000
+      internalID: 7447619541751784904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToDown_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8178ac23570ec80800000000000000
+      internalID: -8295501652609787693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToDown_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0509270bd73fd460800000000000000
+      internalID: 7268589737456764175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToDown_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0884ccf9af1fcff60800000000000000
+      internalID: 8069590691066169472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToDown_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08de2f4a5ed1da80800000000000000
+      internalID: -8443723346886076404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToDown_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e8f1555491e4220800000000000000
+      internalID: 2471941031044550235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToDown_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2eff3e17c8d41920800000000000000
+      internalID: 2960229204806860333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToDown_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f25298ad46e7190800000000000000
+      internalID: -7962816201377894566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToDown_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0642485cc07183fd0800000000000000
+      internalID: -2362112660935007136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToDown_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabc93b2933efffe0800000000000000
+      internalID: -1152953144905708625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToDown_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd215ceb962ebf080800000000000000
+      internalID: -9152472873900371236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoffeeToDown_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5b71d1ed01015e0800000000000000
+      internalID: -1941032893239806539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6c4de7c48cae82e499f19ccbf4b22cca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      CoffeeToDown_0: 7447619541751784904
+      CoffeeToDown_1: -8295501652609787693
+      CoffeeToDown_10: -9152472873900371236
+      CoffeeToDown_11: -1941032893239806539
+      CoffeeToDown_2: 7268589737456764175
+      CoffeeToDown_3: 8069590691066169472
+      CoffeeToDown_4: -8443723346886076404
+      CoffeeToDown_5: 2471941031044550235
+      CoffeeToDown_6: 2960229204806860333
+      CoffeeToDown_7: -7962816201377894566
+      CoffeeToDown_8: -2362112660935007136
+      CoffeeToDown_9: -1152953144905708625
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

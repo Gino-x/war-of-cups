@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 91cbb5c78c5f03444aa103c00d7bf4ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9176049089533571811
+    second: MatchaToDown_0
+  - first:
+      213: 6054220684743151155
+    second: MatchaToDown_1
+  - first:
+      213: -9136297322088316552
+    second: MatchaToDown_2
+  - first:
+      213: 3856460214005208961
+    second: MatchaToDown_3
+  - first:
+      213: -3114200894175834369
+    second: MatchaToDown_4
+  - first:
+      213: -924094347629396405
+    second: MatchaToDown_5
+  - first:
+      213: -2890024614029145612
+    second: MatchaToDown_6
+  - first:
+      213: -943893455391136223
+    second: MatchaToDown_7
+  - first:
+      213: 1655952679085421408
+    second: MatchaToDown_8
+  - first:
+      213: 5489301590736081815
+    second: MatchaToDown_9
+  - first:
+      213: 2235385015508669149
+    second: MatchaToDown_10
+  - first:
+      213: 3674795014734676121
+    second: MatchaToDown_11
+  - first:
+      213: -1164192112179224165
+    second: MatchaToDown_12
+  - first:
+      213: 4136645446986893317
+    second: MatchaToDown_13
+  - first:
+      213: -8018238901419160415
+    second: MatchaToDown_14
+  - first:
+      213: -8267039913168700963
+    second: MatchaToDown_15
+  - first:
+      213: 5218778227164729133
+    second: MatchaToDown_16
+  - first:
+      213: -5261647975313976161
+    second: MatchaToDown_17
+  - first:
+      213: -3954005866483666168
+    second: MatchaToDown_18
+  - first:
+      213: 4285674710091481652
+    second: MatchaToDown_19
+  - first:
+      213: 7665520140937416129
+    second: MatchaToDown_20
+  - first:
+      213: -953616265982739170
+    second: MatchaToDown_21
+  - first:
+      213: 3784695512073758840
+    second: MatchaToDown_22
+  - first:
+      213: 4209169504029007793
+    second: MatchaToDown_23
+  - first:
+      213: -4626224289881631195
+    second: MatchaToDown_24
+  - first:
+      213: 2929982499465150957
+    second: MatchaToDown_25
+  - first:
+      213: 8965174768143383180
+    second: MatchaToDown_26
+  - first:
+      213: -7166625621116055642
+    second: MatchaToDown_27
+  - first:
+      213: 2270609160984960731
+    second: MatchaToDown_28
+  - first:
+      213: 662300197720283098
+    second: MatchaToDown_29
+  - first:
+      213: 8089064112680429946
+    second: MatchaToDown_30
+  - first:
+      213: 6131806589009742601
+    second: MatchaToDown_31
+  - first:
+      213: -8737962102742759172
+    second: MatchaToDown_32
+  - first:
+      213: -5816697837756659014
+    second: MatchaToDown_33
+  - first:
+      213: -8166370761407977268
+    second: MatchaToDown_34
+  - first:
+      213: 5174017352015819240
+    second: MatchaToDown_35
+  - first:
+      213: -7791045937828976327
+    second: MatchaToDown_36
+  - first:
+      213: -7012418015077091710
+    second: MatchaToDown_37
+  - first:
+      213: -6910848687728741013
+    second: MatchaToDown_38
+  - first:
+      213: 1799237318456093221
+    second: MatchaToDown_39
+  - first:
+      213: -5768273243730794039
+    second: MatchaToDown_40
+  - first:
+      213: 6305691359276768682
+    second: MatchaToDown_41
+  - first:
+      213: -5984026170436921018
+    second: MatchaToDown_42
+  - first:
+      213: 5418054117046226715
+    second: MatchaToDown_43
+  - first:
+      213: -7454117782093995304
+    second: MatchaToDown_44
+  - first:
+      213: 3087800442075059954
+    second: MatchaToDown_45
+  - first:
+      213: 7116457803368185700
+    second: MatchaToDown_46
+  - first:
+      213: 3166512357103621175
+    second: MatchaToDown_47
+  - first:
+      213: 741768630173032042
+    second: MatchaToDown_48
+  - first:
+      213: 1494513380397990179
+    second: MatchaToDown_49
+  - first:
+      213: 8653924523415696715
+    second: MatchaToDown_50
+  - first:
+      213: 1256420335436228477
+    second: MatchaToDown_51
+  - first:
+      213: 6449508496216723761
+    second: MatchaToDown_52
+  - first:
+      213: -1239876169154824809
+    second: MatchaToDown_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MatchaToDown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d0ec848ff18a080800000000000000
+      internalID: -9176049089533571811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MatchaToDown_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e00f9d2a9e40450800000000000000
+      internalID: 6054220684743151155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MatchaToDown_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871c292edf9553180800000000000000
+      internalID: -9136297322088316552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MatchaToDown_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187153ad126e48530800000000000000
+      internalID: 3856460214005208961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MatchaToDown_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe027759c228c4d0800000000000000
+      internalID: -3114200894175834369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MatchaToDown_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e7a9e3615fc23f0800000000000000
+      internalID: -924094347629396405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MatchaToDown_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f948a0fce194e7d0800000000000000
+      internalID: -2890024614029145612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MatchaToDown_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126689d37ed96e2f0800000000000000
+      internalID: -943893455391136223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MatchaToDown_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0633eb120302bf610800000000000000
+      internalID: 1655952679085421408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MatchaToDown_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7939fc496baed2c40800000000000000
+      internalID: 5489301590736081815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MatchaToDown_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd210a9f3dea50f10800000000000000
+      internalID: 2235385015508669149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MatchaToDown_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99003a3989e7ff230800000000000000
+      internalID: 3674795014734676121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 908db1996dab34b48bbdf5f2743fe412
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MatchaToDown_0: -9176049089533571811
+      MatchaToDown_1: 6054220684743151155
+      MatchaToDown_10: 2235385015508669149
+      MatchaToDown_11: 3674795014734676121
+      MatchaToDown_2: -9136297322088316552
+      MatchaToDown_3: 3856460214005208961
+      MatchaToDown_4: -3114200894175834369
+      MatchaToDown_5: -924094347629396405
+      MatchaToDown_6: -2890024614029145612
+      MatchaToDown_7: -943893455391136223
+      MatchaToDown_8: 1655952679085421408
+      MatchaToDown_9: 5489301590736081815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
