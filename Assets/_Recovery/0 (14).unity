@@ -369,7 +369,7 @@ Transform:
   m_GameObject: {fileID: 174458031}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.32}
+  m_LocalPosition: {x: 0, y: 0, z: -0.8}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -6182,7 +6182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1747045800}
-  - component: {fileID: 1747045801}
+  - component: {fileID: 1747045799}
   m_Layer: 0
   m_Name: GameManegar
   m_TagString: Untagged
@@ -6190,6 +6190,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1747045799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747045798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a43068d0f5e3a8f46956292593041193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  characterPrefabs:
+  - {fileID: 6005257627512503580, guid: eeed6be1c75e4484eb05cb4b3d2cff82, type: 3}
+  - {fileID: 3067693701170768088, guid: fd2f31b25ed3f4c408b3413bcfa48f48, type: 3}
+  - {fileID: 5373031063924399288, guid: 3e2f6a03cba93d843ba59048eed1e1bc, type: 3}
+  - {fileID: 2328517539585723636, guid: 0596a1939cc642442b2deca1db172739, type: 3}
+  cornerSpawnPoints: []
+  viewportPadding: 0.05
+  useCustomSpawnPositions: 1
+  customSpawnPositions:
+  - {x: -45, y: 20, z: 0}
+  - {x: 45, y: -20, z: 0}
+  - {x: -45, y: -20, z: 0}
+  - {x: 45, y: 20, z: 0}
+  spawnMode: 0
+  perCharacterPositions: []
+  spawnZ: 0
 --- !u!4 &1747045800
 Transform:
   m_ObjectHideFlags: 0
@@ -6206,23 +6234,6 @@ Transform:
   - {fileID: 1417036838}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1747045801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1747045798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a43068d0f5e3a8f46956292593041193, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LoadCharacter
-  characterPrefabs:
-  - {fileID: 6005257627512503580, guid: eeed6be1c75e4484eb05cb4b3d2cff82, type: 3}
-  - {fileID: 3067693701170768088, guid: fd2f31b25ed3f4c408b3413bcfa48f48, type: 3}
-  - {fileID: 5373031063924399288, guid: 3e2f6a03cba93d843ba59048eed1e1bc, type: 3}
-  - {fileID: 2328517539585723636, guid: 0596a1939cc642442b2deca1db172739, type: 3}
 --- !u!1 &1945025172
 GameObject:
   m_ObjectHideFlags: 0
