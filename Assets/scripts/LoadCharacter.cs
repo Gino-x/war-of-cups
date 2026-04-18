@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.AI;
 
 
 public class LoadCharacter : MonoBehaviour
@@ -79,6 +78,7 @@ public class LoadCharacter : MonoBehaviour
                 Debug.LogWarning("No main camera found for CameraCorners spawn mode.");
                 return;
             }
+            // Use camera's distance for z coordinate
             float z = Mathf.Abs(cam.transform.position.z);
             // Apply padding to move spawns slightly inside the screen
             float left = viewportPadding;
@@ -170,12 +170,13 @@ public class LoadCharacter : MonoBehaviour
                 spawnPositions[i] = customSpawnPositions[i];
         }
 
-        // Spawn the selected character in the top-left (index 0)
-        GameObject player = Instantiate(characterPrefabs[selectedCharacter], spawnPositions[0], Quaternion.identity);
-        // Mark as player so enemies can target it
+        // Spawn the selected character in the middle of the scene
+        Vector3 spawnPosition = Vector3.zero;
+        GameObject player = Instantiate(characterPrefabs[selectedCharacter], spawnPosition, Quaternion.identity);
+        // Mark as player
         player.tag = "Player";
         // Enable player movement script if present
-        var playerMovement = player.GetComponent<playerMovment>();
+        var playerMovement = player.GetComponent<PlayerMovement>();
         if (playerMovement != null)
             playerMovement.enabled = true;
 
@@ -189,48 +190,6 @@ public class LoadCharacter : MonoBehaviour
                 if (comp is Behaviour b)
                     b.enabled = true;
             }
-        }
-
-        // Spawn three other prefabs in the remaining corners (1..3). If there are fewer prefabs
-        // the available prefabs are reused (excluding the selected one when possible).
-        List<int> otherIndices = Enumerable.Range(0, characterPrefabs.Length).Where(i => i != selectedCharacter).ToList();
-        if (otherIndices.Count == 0)
-        {
-            Debug.LogWarning("Only one prefab available; nothing else to spawn.");
-            return;
-        }
-
-        for (int corner = 1; corner <= 3; corner++)
-        {
-            int idx = otherIndices[(corner - 1) % otherIndices.Count];
-            GameObject enemy = Instantiate(characterPrefabs[idx], spawnPositions[corner], Quaternion.identity);
-
-            // Ensure enemy cannot be controlled by player input or movement scripts
-            var enemyMovement = enemy.GetComponent<playerMovment>();
-            if (enemyMovement != null)
-                enemyMovement.enabled = false;
-
-            // Remove any PlayerInput components from enemies (avoids input system pairing errors at runtime).
-            foreach (var comp in enemy.GetComponents<Component>())
-            {
-                if (comp == null) continue;
-                if (comp.GetType().Name == "PlayerInput")
-                {
-                    Object.Destroy(comp);
-                }
-            }
-
-            // Add or configure NavMeshAgent for pathfinding. If NavMesh is not available at runtime,
-            // EnemyAI falls back to a simple seek movement.
-            var agent = enemy.GetComponent<NavMeshAgent>();
-            if (agent == null)
-                agent = enemy.AddComponent<NavMeshAgent>();
-            agent.speed = 3.5f;
-            agent.angularSpeed = 120f;
-
-            // Add EnemyAI and point it at the player
-            var ai = enemy.GetComponent<EnemyAI>() ?? enemy.AddComponent<EnemyAI>();
-            ai.target = player.transform;
         }
     }
 }
