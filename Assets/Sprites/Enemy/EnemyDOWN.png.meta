@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: a5b1995953dee234cb5f74590ec803ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1448256850864184197
+    second: EnemyDOWN_0
+  - first:
+      213: -4243165598156396469
+    second: EnemyDOWN_1
+  - first:
+      213: -3649577734489750798
+    second: EnemyDOWN_2
+  - first:
+      213: 874364453396965896
+    second: EnemyDOWN_3
+  - first:
+      213: 6309158849954717468
+    second: EnemyDOWN_4
+  - first:
+      213: 1877917454262401508
+    second: EnemyDOWN_5
+  - first:
+      213: 474567721652049540
+    second: EnemyDOWN_6
+  - first:
+      213: 6815014704938300741
+    second: EnemyDOWN_7
+  - first:
+      213: 6851293005680315868
+    second: EnemyDOWN_8
+  - first:
+      213: -4071758556829865428
+    second: EnemyDOWN_9
+  - first:
+      213: -3589893281147825220
+    second: EnemyDOWN_10
+  - first:
+      213: 7050458000741773795
+    second: EnemyDOWN_11
+  - first:
+      213: -1652791585966875551
+    second: EnemyDOWN_12
+  - first:
+      213: 2155590160352983772
+    second: EnemyDOWN_13
+  - first:
+      213: -7940635542633324116
+    second: EnemyDOWN_14
+  - first:
+      213: 6197832306813429945
+    second: EnemyDOWN_15
+  - first:
+      213: 3037608318723998441
+    second: EnemyDOWN_16
+  - first:
+      213: -5823383445931964056
+    second: EnemyDOWN_17
+  - first:
+      213: -5412852737231711929
+    second: EnemyDOWN_18
+  - first:
+      213: 3650959485015590356
+    second: EnemyDOWN_19
+  - first:
+      213: 8871071539928883958
+    second: EnemyDOWN_20
+  - first:
+      213: 8460200348437213898
+    second: EnemyDOWN_21
+  - first:
+      213: -6776616256455843455
+    second: EnemyDOWN_22
+  - first:
+      213: 6321549105090241905
+    second: EnemyDOWN_23
+  - first:
+      213: -1358301253585668328
+    second: EnemyDOWN_24
+  - first:
+      213: 5756376114040114065
+    second: EnemyDOWN_25
+  - first:
+      213: 6337719487910480899
+    second: EnemyDOWN_26
+  - first:
+      213: 6094473327488890282
+    second: EnemyDOWN_27
+  - first:
+      213: 8445879103144328799
+    second: EnemyDOWN_28
+  - first:
+      213: 6205805888444793257
+    second: EnemyDOWN_29
+  - first:
+      213: -7353250856473443178
+    second: EnemyDOWN_30
+  - first:
+      213: -8654190083735893238
+    second: EnemyDOWN_31
+  - first:
+      213: -7304954315041911697
+    second: EnemyDOWN_32
+  - first:
+      213: 2518073668279519113
+    second: EnemyDOWN_33
+  - first:
+      213: 2108466511643172691
+    second: EnemyDOWN_34
+  - first:
+      213: -4190953123836466498
+    second: EnemyDOWN_35
+  - first:
+      213: 5161825692061370547
+    second: EnemyDOWN_36
+  - first:
+      213: -8912499933503840188
+    second: EnemyDOWN_37
+  - first:
+      213: 8250833981033367380
+    second: EnemyDOWN_38
+  - first:
+      213: 4056411959259078773
+    second: EnemyDOWN_39
+  - first:
+      213: 5308079754337151227
+    second: EnemyDOWN_40
+  - first:
+      213: -4767947073027387318
+    second: EnemyDOWN_41
+  - first:
+      213: -1446787582265814180
+    second: EnemyDOWN_42
+  - first:
+      213: 5485082574892687557
+    second: EnemyDOWN_43
+  - first:
+      213: 2713376597266341702
+    second: EnemyDOWN_44
+  - first:
+      213: -3599362659616805855
+    second: EnemyDOWN_45
+  - first:
+      213: -1306661667000152969
+    second: EnemyDOWN_46
+  - first:
+      213: 5211403978718748788
+    second: EnemyDOWN_47
+  - first:
+      213: 2547606937161804271
+    second: EnemyDOWN_48
+  - first:
+      213: -1646390824799790258
+    second: EnemyDOWN_49
+  - first:
+      213: 5142642429683334369
+    second: EnemyDOWN_50
+  - first:
+      213: -2277038680944825362
+    second: EnemyDOWN_51
+  - first:
+      213: -5537420135548930693
+    second: EnemyDOWN_52
+  - first:
+      213: -686593190233585390
+    second: EnemyDOWN_53
+  - first:
+      213: 7316335318242927679
+    second: EnemyDOWN_54
+  - first:
+      213: 4995989457611955107
+    second: EnemyDOWN_55
+  - first:
+      213: -5344946193254536035
+    second: EnemyDOWN_56
+  - first:
+      213: 1471888503037758982
+    second: EnemyDOWN_57
+  - first:
+      213: -3193278360711093770
+    second: EnemyDOWN_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyDOWN_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74e6bc3112c6ebe0800000000000000
+      internalID: -1448256850864184197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDOWN_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48eab6ae5f3d15c0800000000000000
+      internalID: -4243165598156396469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDOWN_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2409303681a5dc0800000000000000
+      internalID: -3649577734489750798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDOWN_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a64f876dd522c00800000000000000
+      internalID: 874364453396965896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDOWN_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f1013fb82ae8750800000000000000
+      internalID: 6309158849954717468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDOWN_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9f0da99f3bf0a10800000000000000
+      internalID: 1877917454262401508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDOWN_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486dfe614d0069600800000000000000
+      internalID: 474567721652049540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDOWN_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54539e244cbc39e50800000000000000
+      internalID: 6815014704938300741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDOWN_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd81bf50bea41f50800000000000000
+      internalID: 6851293005680315868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDOWN_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2aaff86a253e77c0800000000000000
+      internalID: -4071758556829865428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDOWN_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb35f93b4132e2ec0800000000000000
+      internalID: -3589893281147825220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDOWN_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1360e523248d160800000000000000
+      internalID: 7050458000741773795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8fdc31006aa993943912032ed3169358
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      EnemyDOWN_0: -1448256850864184197
+      EnemyDOWN_1: -4243165598156396469
+      EnemyDOWN_10: -3589893281147825220
+      EnemyDOWN_11: 7050458000741773795
+      EnemyDOWN_2: -3649577734489750798
+      EnemyDOWN_3: 874364453396965896
+      EnemyDOWN_4: 6309158849954717468
+      EnemyDOWN_5: 1877917454262401508
+      EnemyDOWN_6: 474567721652049540
+      EnemyDOWN_7: 6815014704938300741
+      EnemyDOWN_8: 6851293005680315868
+      EnemyDOWN_9: -4071758556829865428
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
