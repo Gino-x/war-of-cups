@@ -12,7 +12,7 @@ public class EnemyAI : MonoBehaviour
 
     [Header("Obstacle Avoidance Settings")]
     [SerializeField] private float avoidanceRayLength = 2f;
-    [SerializeField] private LayerMask obstacleLayer;
+    [SerializeField] private LayerMask obstacleLayer;  // Set this in the Inspector to the layer your walls/obstacles are on
 
     private Transform playerTransform;
     private Rigidbody2D rb2d;
@@ -20,8 +20,18 @@ public class EnemyAI : MonoBehaviour
     private bool isChasing = false;
     private Vector2 moveDirection = Vector2.zero;
 
-    // Angles to check when direct path is blocked (in degrees)
-    private readonly float[] steeringAngles = { 45f, -45f, 90f, -90f, 135f, -135f };
+    // 8 directions to test for clear paths
+    private readonly Vector2[] steeringDirections = new Vector2[]
+    {
+        Vector2.up,
+        Vector2.down,
+        Vector2.left,
+        Vector2.right,
+        new Vector2(1, 1).normalized,
+        new Vector2(1, -1).normalized,
+        new Vector2(-1, 1).normalized,
+        new Vector2(-1, -1).normalized
+    };
 
     private void Awake()
     {
@@ -91,8 +101,8 @@ public class EnemyAI : MonoBehaviour
             return;
         }
 
-        // Get the best steering direction (avoids obstacles)
-        moveDirection = GetSteeringDirection();
+        // Get the best direction to move (toward player or around obstacles)
+        moveDirection = GetSmartDirection();
 
         // Move towards player
         rb2d.linearVelocity = moveDirection * moveSpeed;
@@ -102,62 +112,68 @@ public class EnemyAI : MonoBehaviour
     }
 
     /// <summary>
-    /// Casts rays in multiple directions to find a clear path toward the player.
-    /// If the direct path is blocked, it tries angled directions until it finds a free one.
+    /// Gets the best direction to move. Tries direct path first, then steers around obstacles.
     /// </summary>
-    private Vector2 GetSteeringDirection()
+    private Vector2 GetSmartDirection()
     {
         Vector2 directionToPlayer = (playerTransform.position - transform.position).normalized;
 
-        // Check if the direct path to the player is clear
-        RaycastHit2D directHit = Physics2D.Raycast(
+        // Try direct path first
+        if (IsPathClear(directionToPlayer))
+        {
+            return directionToPlayer;
+        }
+
+        // Direct path blocked — find the best steering direction
+        Vector2 bestDirection = directionToPlayer;  // fallback
+        float bestScore = -999f;
+
+        // Test each steering direction
+        foreach (Vector2 testDir in steeringDirections)
+        {
+            if (IsPathClear(testDir))
+            {
+                // This direction is clear. Score it based on how close it is to the player
+                float score = Vector2.Dot(testDir, directionToPlayer);
+
+                if (score > bestScore)
+                {
+                    bestScore = score;
+                    bestDirection = testDir;
+                }
+            }
+        }
+
+        return bestDirection.normalized;
+    }
+
+    /// <summary>
+    /// Checks if a path in the given direction is clear of obstacles.
+    /// Returns true if no obstacles are detected.
+    /// </summary>
+    private bool IsPathClear(Vector2 direction)
+    {
+        // If no obstacle layer is set, assume all paths are clear
+        if (obstacleLayer == 0)
+        {
+            return true;
+        }
+
+        // Raycast in the given direction
+        RaycastHit2D hit = Physics2D.Raycast(
             transform.position,
-            directionToPlayer,
+            direction,
             avoidanceRayLength,
             obstacleLayer
         );
 
-        if (directHit.collider == null)
+        // If we hit something on the obstacle layer, path is blocked
+        if (hit.collider != null)
         {
-            // No obstacle in the way, go straight to player
-            return directionToPlayer;
+            return false;
         }
 
-        // Direct path is blocked — try steering angles
-        foreach (float angle in steeringAngles)
-        {
-            Vector2 testDirection = RotateVector(directionToPlayer, angle);
-
-            RaycastHit2D testHit = Physics2D.Raycast(
-                transform.position,
-                testDirection,
-                avoidanceRayLength,
-                obstacleLayer
-            );
-
-            if (testHit.collider == null)
-            {
-                // Found a clear direction, steer that way
-                return testDirection;
-            }
-        }
-
-        // All directions are blocked — fallback to direct direction (edge case)
-        return directionToPlayer;
-    }
-
-    /// <summary>
-    /// Rotates a 2D vector by the given angle in degrees.
-    /// </summary>
-    private Vector2 RotateVector(Vector2 v, float degrees)
-    {
-        float radians = degrees * Mathf.Deg2Rad;
-        float cos = Mathf.Cos(radians);
-        float sin = Mathf.Sin(radians);
-        return new Vector2(
-            cos * v.x - sin * v.y,
-            sin * v.x + cos * v.y
-        );
+        return true;
     }
 
     private void UpdateAnimation(Vector2 direction)
@@ -193,7 +209,7 @@ public class EnemyAI : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionDistance);
 
-        // Avoidance ray (direct path)
+        // Avoidance ray (direct path to player)
         if (playerTransform != null)
         {
             Vector2 directionToPlayer = (playerTransform.position - transform.position).normalized;

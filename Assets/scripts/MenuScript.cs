@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 public class MenuScript : MonoBehaviour
 {
     public GameObject menuCanvas;
+    private bool isPaused = false;
+
     void Start()
     {
         menuCanvas.SetActive(false);
@@ -14,7 +16,32 @@ public class MenuScript : MonoBehaviour
     {
         if (Keyboard.current.tabKey.wasPressedThisFrame)
         {
-            menuCanvas.SetActive(!menuCanvas.activeSelf);
+            if (isPaused)
+            {
+                // Resume the game
+                ResumeGame();
+            }
+            else
+            {
+                // Pause the game
+                PauseGame();
+            }
         }   
+    }
+
+    private void PauseGame()
+    {
+        isPaused = true;
+        menuCanvas.SetActive(true);
+        Time.timeScale = 0f;  // Freeze all game logic
+        Debug.Log("Game Paused");
+    }
+
+    private void ResumeGame()
+    {
+        isPaused = false;
+        menuCanvas.SetActive(false);
+        Time.timeScale = 1f;  // Resume normal game speed
+        Debug.Log("Game Resumed");
     }
 }

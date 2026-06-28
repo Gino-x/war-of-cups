@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1688151006407275948}
   - component: {fileID: 6528353743658700006}
   - component: {fileID: 8707716968351031794}
+  - component: {fileID: -4350617262095035901}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.41, y: 1.12, z: 0}
-  m_LocalScale: {x: 3.3200002, y: 3.3200002, z: 3.3200002}
+  m_LocalScale: {x: 2.75, y: 2.75, z: 2.75}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -194,7 +195,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   moveSpeed: 15
   detectionDistance: 44
+  damageAmount: 15
   avoidanceRayLength: 23
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
+--- !u!114 &-4350617262095035901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005257627512503580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6dab252ff72274ea3321d0d59f0229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
+  playerHealth: {fileID: 0}
+  damage: 2

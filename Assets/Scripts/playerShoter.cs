@@ -5,6 +5,7 @@ public class PlayerShoot : MonoBehaviour
 {
     [SerializeField] private GameObject _bulletPrefab;
     [SerializeField] private float _bulletSpeed = 10f;
+    [SerializeField] private float _bulletZPosition = -1f;
 
     private Animator _animator;
 
@@ -34,7 +35,8 @@ public class PlayerShoot : MonoBehaviour
 
         Vector2 shootDirection = GetFacingDirection();
 
-        GameObject bullet = Instantiate(_bulletPrefab, transform.position, Quaternion.identity);
+        Vector3 bulletSpawnPosition = new Vector3(transform.position.x, transform.position.y, _bulletZPosition);
+        GameObject bullet = Instantiate(_bulletPrefab, bulletSpawnPosition, Quaternion.identity);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
         if (rb != null)

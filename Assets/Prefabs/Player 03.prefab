@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 3908717609865124795}
   - component: {fileID: 7511499639115773069}
   - component: {fileID: 426452920268639598}
+  - component: {fileID: -8738601237678571471}
+  - component: {fileID: -1811551819484632556}
   m_Layer: 0
   m_Name: Player 03
   m_TagString: Untagged
@@ -31,8 +33,8 @@ Transform:
   m_GameObject: {fileID: 5373031063924399288}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalPosition: {x: 0, y: -0.18, z: 0}
+  m_LocalScale: {x: 2.78, y: 2.78, z: 2.78}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -229,7 +231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1cb40104f8bc9344a2b0379492d5b94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 20
+  moveSpeed: 35
+  playerRadius: 1
 --- !u!95 &7511499639115773069
 Animator:
   serializedVersion: 7
@@ -298,3 +301,32 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.0449166, y: 2.2835953}
   m_EdgeRadius: 0
+--- !u!114 &-8738601237678571471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5373031063924399288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 956748fc419454a44b337dee10782a1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  _bulletPrefab: {fileID: 2172259285489530072, guid: 0ea8a32b72c89304f965c4043e5c5f8f, type: 3}
+  _bulletSpeed: 45
+  _bulletZPosition: -30
+--- !u!114 &-1811551819484632556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5373031063924399288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c1398b98b302146aa2ad21a13beb74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  health: 0
+  maxHealth: 10
