@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    // How long the bullet lives before auto-destroying (prevents memory leaks)
     [SerializeField] private float lifetime = 5f;
 
     private void Start()
@@ -12,11 +11,15 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Must match the actual enemy script class name: EnemyAI
-        if (collision.GetComponent<EnemyAI>() != null)
+        EnemyAI enemy = collision.GetComponent<EnemyAI>();
+        if (enemy != null)
         {
-            Destroy(collision.gameObject); // Kill the enemy
-            Destroy(gameObject);           // Destroy the bullet
+            EnemyDrop drop = collision.GetComponent<EnemyDrop>();
+            if (drop != null)
+                drop.DropLoot();
+
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 }

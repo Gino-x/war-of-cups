@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 2283430403644374898}
   - component: {fileID: 3429024772681857715}
   - component: {fileID: -8829477653707203329}
+  - component: {fileID: 8132076376593120348}
   m_Layer: 0
   m_Name: Player 02
   m_TagString: Untagged
@@ -329,4 +330,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   health: 0
-  maxHealth: 10
+  maxHealth: 100
+--- !u!114 &8132076376593120348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067693701170768088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2664acd7e4668e1468e42422607cd24a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAim

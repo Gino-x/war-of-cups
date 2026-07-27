@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6528353743658700006}
   - component: {fileID: 8707716968351031794}
   - component: {fileID: -4350617262095035901}
+  - component: {fileID: 330515897203589803}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -194,8 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   moveSpeed: 15
-  detectionDistance: 44
-  damageAmount: 15
+  detectionDistance: 90
   avoidanceRayLength: 23
   obstacleLayer:
     serializedVersion: 2
@@ -212,5 +212,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c6dab252ff72274ea3321d0d59f0229, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
-  playerHealth: {fileID: 0}
   damage: 2
+  attackCooldown: 1
+--- !u!114 &330515897203589803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005257627512503580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c813fa9d62e154a86f8476e19f939a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDrop
+  potionPrefab: {fileID: 6761814222187934150, guid: 09fb7b725039e1643b499a9fd042e8df, type: 3}
+  dropChance: 0.3

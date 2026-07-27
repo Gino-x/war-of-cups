@@ -6,6 +6,7 @@ public class EnemyAI : MonoBehaviour
 {
     [Header("Speed Settings")]
     [SerializeField] private float moveSpeed = 3.5f;
+    private float speedMultiplier = 1f;
 
     [Header("Detection Settings")]
     [SerializeField] private float detectionDistance = 10f;
@@ -105,10 +106,18 @@ public class EnemyAI : MonoBehaviour
         moveDirection = GetSmartDirection();
 
         // Move towards player
-        rb2d.linearVelocity = moveDirection * moveSpeed;
+        rb2d.linearVelocity = moveDirection * moveSpeed * speedMultiplier;
 
         // Update animations based on movement direction
         UpdateAnimation(moveDirection);
+    }
+
+    /// <summary>
+    /// Called by EnemySpawner to scale this enemy's speed based on the current round.
+    /// </summary>
+    public void SetSpeedMultiplier(float multiplier)
+    {
+        speedMultiplier = multiplier;
     }
 
     /// <summary>
