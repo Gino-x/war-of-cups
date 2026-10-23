@@ -6,13 +6,14 @@ public class HealthBar : MonoBehaviour
 {
     [SerializeField] private Image healthBarFill;
     [SerializeField] private TextMeshProUGUI healthText;
+    [SerializeField] private int playerIndex = 0; // 0 = Player 1, 1 = Player 2
+
     private PlayerHealth playerHealth;
+    private bool connected = false;
 
     [SerializeField] private Color fullHealthColor = Color.green;
     [SerializeField] private Color lowHealthColor = Color.red;
     [SerializeField] private float colorChangeThreshold = 0.3f;
-
-    private bool connected = false;
 
     private void Start()
     {
@@ -22,52 +23,48 @@ public class HealthBar : MonoBehaviour
 
     private void Update()
     {
-        // Keep searching for PlayerHealth until found
         if (!connected)
         {
-            playerHealth = FindObjectOfType<PlayerHealth>();
-            if (playerHealth != null)
-            {
-                connected = true;
-                Debug.Log("✓ HealthBar connected to PlayerHealth!");
-            }
-            // If not found yet, keep trying next frame
+            FindMatchingPlayer();
             return;
         }
 
-        // Update the health bar every frame
+        if (playerHealth == null)
+        {
+            connected = false;
+            return;
+        }
+
         UpdateHealthBar();
+    }
+
+    private void FindMatchingPlayer()
+    {
+        PlayerHealth[] all = FindObjectsOfType<PlayerHealth>();
+        foreach (PlayerHealth p in all)
+        {
+            if (p.playerIndex == playerIndex)
+            {
+                playerHealth = p;
+                connected = true;
+                return;
+            }
+        }
     }
 
     private void UpdateHealthBar()
     {
-        if (playerHealth == null)
-        {
-            connected = false; // Reset if player is destroyed
-            return;
-        }
-
-        // Calculate health percentage (0 to 1)
         float healthPercentage = (float)playerHealth.health / playerHealth.maxHealth;
         healthPercentage = Mathf.Clamp01(healthPercentage);
 
-        // Update bar fill INSTANTLY
         healthBarFill.fillAmount = healthPercentage;
 
-        // Change color based on health
         if (healthPercentage <= colorChangeThreshold)
-        {
             healthBarFill.color = Color.Lerp(Color.red, Color.green, healthPercentage / colorChangeThreshold);
-        }
         else
-        {
             healthBarFill.color = Color.green;
-        }
 
-        // Update text
         if (healthText != null)
-        {
             healthText.text = $"{playerHealth.health} / {playerHealth.maxHealth}";
-        }
     }
 }

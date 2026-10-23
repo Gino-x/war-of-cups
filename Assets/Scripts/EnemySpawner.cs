@@ -6,10 +6,8 @@ public class EnemySpawner : MonoBehaviour
 {
     [Header("Enemy Prefabs")]
     [SerializeField] private GameObject[] enemyPrefabs;
-
     [Header("Spawn Points")]
     [SerializeField] private Transform[] spawnPoints;
-
     [Header("Round Settings")]
     [SerializeField] private int baseEnemiesPerRound = 6;
     [SerializeField] private int enemiesIncreasePerRound = 3;
@@ -17,11 +15,11 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private int maxAliveAtOnce = 10;
     [SerializeField] private float delayBeforeFirstRound = 3f;
     [SerializeField] private float delayBetweenRounds = 5f;
-
     [Header("Difficulty Scaling")]
-    [SerializeField] private float speedIncreasePerRound = 0.1f; // +10% per round
+    [SerializeField] private float speedIncreasePerRound = 0.1f;
     [SerializeField] private float maxSpeedMultiplier = 3f;
-
+    [SerializeField] private int baseDamage = 2;
+    [SerializeField] private int damageIncreasePerRound = 5;
     [Header("UI")]
     [SerializeField] private RoundUIController roundUI;
 
@@ -38,7 +36,6 @@ public class EnemySpawner : MonoBehaviour
     private IEnumerator RoundLoop()
     {
         yield return new WaitForSeconds(delayBeforeFirstRound);
-
         while (true)
         {
             currentRound++;
@@ -54,9 +51,12 @@ public class EnemySpawner : MonoBehaviour
 
             yield return StartCoroutine(SpawnRound());
 
-            // Wait until every enemy spawned this round has been killed
             while (enemiesSpawnedThisRound < enemiesToSpawnThisRound || CountAlive() > 0)
                 yield return null;
+
+            // Round won: bring back any player who died this round
+            if (LoadCharacter.Instance != null)
+                LoadCharacter.Instance.RespawnMarkedPlayers();
 
             yield return new WaitForSeconds(delayBetweenRounds);
         }
@@ -71,10 +71,7 @@ public class EnemySpawner : MonoBehaviour
                 SpawnEnemy();
                 yield return new WaitForSeconds(timeBetweenSpawns);
             }
-            else
-            {
-                yield return null;
-            }
+            else yield return null;
         }
     }
 
@@ -95,6 +92,13 @@ public class EnemySpawner : MonoBehaviour
         {
             float multiplier = Mathf.Min(1f + (currentRound - 1) * speedIncreasePerRound, maxSpeedMultiplier);
             ai.SetSpeedMultiplier(multiplier);
+        }
+
+        EnemyDamage dmg = enemy.GetComponent<EnemyDamage>();
+        if (dmg != null)
+        {
+            int newDamage = baseDamage + (currentRound - 1) * damageIncreasePerRound;
+            dmg.SetDamage(newDamage);
         }
     }
 

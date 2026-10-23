@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 5524172998914388011}
   - component: {fileID: 4870991060739152058}
   - component: {fileID: 7326867417861992046}
-  m_Layer: 0
-  m_Name: 'Bullets '
+  m_Layer: 8
+  m_Name: Bullets_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2172259285489530072}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.32099, y: -5.26068, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 3.16}
   m_LocalScale: {x: 3.68, y: 3.68, z: 3.68}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -75,10 +75,10 @@ CapsuleCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c50c25dccb2d25141aca9a990e08e2fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  lifetime: 5
+  lifetime: 6.48
 --- !u!1 &6087472947600207449
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766606387833972758}
   - component: {fileID: 4140931155200248803}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'Graphics '
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -18,6 +18,9 @@ public class Bullet : MonoBehaviour
             if (drop != null)
                 drop.DropLoot();
 
+            if (ScoreManager.Instance != null)
+                ScoreManager.Instance.AddScore();
+
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
