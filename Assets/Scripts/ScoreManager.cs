@@ -5,10 +5,11 @@ public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager Instance;
 
-    [SerializeField] private TextMeshProUGUI scoreText;
-    [SerializeField] private int pointsPerKill = 10;
+    [SerializeField] private TextMeshProUGUI scoreTextP1; // left side
+    [SerializeField] private TextMeshProUGUI scoreTextP2; // right side
 
-    private int score = 0;
+    private int scoreP1 = 0;
+    private int scoreP2 = 0;
 
     private void Awake()
     {
@@ -16,15 +17,22 @@ public class ScoreManager : MonoBehaviour
         UpdateScoreText();
     }
 
-    public void AddScore()
+    public void AddScore(int playerIndex, int points)
     {
-        score += pointsPerKill;
+        if (playerIndex == 1)
+            scoreP2 += points;
+        else
+            scoreP1 += points;
+
         UpdateScoreText();
     }
 
     private void UpdateScoreText()
     {
-        if (scoreText != null)
-            scoreText.text = "Score: " + score;
+        if (scoreTextP1 != null)
+            scoreTextP1.text = "Score: " + scoreP1;
+
+        if (scoreTextP2 != null)
+            scoreTextP2.text = "Score: " + scoreP2;
     }
 }

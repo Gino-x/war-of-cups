@@ -79,7 +79,10 @@ public class CharacterSelection : MonoBehaviour
             PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
         }
 
-        SceneManager.LoadScene("FightScene");
+        PlayerPrefs.Save();
+
+        // Next screen: map selection (then FightScene)
+        SceneManager.LoadScene("MapSelection");
     }
 
     private void UpdateTurnText()

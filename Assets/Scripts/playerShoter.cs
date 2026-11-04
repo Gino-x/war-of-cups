@@ -47,8 +47,13 @@ public class PlayerShoot : MonoBehaviour
 
         Vector3 bulletSpawnPosition = new Vector3(transform.position.x, transform.position.y, _bulletZPosition);
         GameObject bullet = Instantiate(_bulletPrefab, bulletSpawnPosition, Quaternion.identity);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
 
+        // Tell the bullet who shot it (for separate scores)
+        Bullet bulletScript = bullet.GetComponent<Bullet>();
+        if (bulletScript != null)
+            bulletScript.ownerIndex = playerIndex;
+
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         if (rb != null)
             rb.linearVelocity = shootDirection * _bulletSpeed;
 

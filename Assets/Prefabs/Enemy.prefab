@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8707716968351031794}
   - component: {fileID: -4350617262095035901}
   - component: {fileID: 330515897203589803}
+  - component: {fileID: 7678169246363283899}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -214,6 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   damage: 4
   attackCooldown: 0.37
+  damageMultiplier: 1
 --- !u!114 &330515897203589803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,3 +232,17 @@ MonoBehaviour:
   dropChance: 0.2707848
   shieldPrefab: {fileID: 5053229951094776519, guid: a498bbf07f3818a45822160b2cb417f6, type: 3}
   shieldDropChance: 0.50935984
+--- !u!114 &7678169246363283899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005257627512503580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ce948c86deca645a3c53dde559f9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  hp: 1
+  scoreValue: 10

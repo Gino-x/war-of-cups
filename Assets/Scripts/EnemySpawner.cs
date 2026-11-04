@@ -6,6 +6,14 @@ public class EnemySpawner : MonoBehaviour
 {
     [Header("Enemy Prefabs")]
     [SerializeField] private GameObject[] enemyPrefabs;
+    [SerializeField] private GameObject heavyEnemyPrefab;
+    [Header("Heavy Enemy Settings")]
+    [SerializeField] private int heavyStartsAtRound = 2;
+    [Range(0f, 1f)]
+    [SerializeField] private float heavyChanceBase = 0.1f;
+    [SerializeField] private float heavyChanceIncreasePerRound = 0.05f;
+    [Range(0f, 1f)]
+    [SerializeField] private float heavyChanceMax = 0.5f;
     [Header("Spawn Points")]
     [SerializeField] private Transform[] spawnPoints;
     [Header("Round Settings")]
@@ -75,12 +83,25 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
+    private GameObject PickPrefab()
+    {
+        if (heavyEnemyPrefab != null && currentRound >= heavyStartsAtRound)
+        {
+            float chance = heavyChanceBase + (currentRound - heavyStartsAtRound) * heavyChanceIncreasePerRound;
+            chance = Mathf.Min(chance, heavyChanceMax);
+            if (Random.value <= chance)
+                return heavyEnemyPrefab;
+        }
+
+        return enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
+    }
+
     private void SpawnEnemy()
     {
         if (enemyPrefabs == null || enemyPrefabs.Length == 0 || spawnPoints == null || spawnPoints.Length == 0)
             return;
 
-        GameObject prefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
+        GameObject prefab = PickPrefab();
         Transform point = spawnPoints[Random.Range(0, spawnPoints.Length)];
 
         GameObject enemy = Instantiate(prefab, point.position, Quaternion.identity);

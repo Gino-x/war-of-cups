@@ -6,12 +6,14 @@ public class EnemyDamage : MonoBehaviour
 {
     [SerializeField] private int damage = 2;
     [SerializeField] private float attackCooldown = 1f;
+    [Tooltip("1 = normal enemy. Heavy enemy: 3 means 3x damage.")]
+    [SerializeField] private float damageMultiplier = 1f;
 
     private float lastAttackTime = -999f;
 
     public void SetDamage(int newDamage)
     {
-        damage = newDamage;
+        damage = Mathf.RoundToInt(newDamage * damageMultiplier);
     }
 
     private void OnCollisionStay2D(Collision2D collision)
